@@ -1,0 +1,7 @@
+Time used: 1.334825
+origin point:  (126956, 4)
+nonGround point:  (40492, 4)
+Traceback (most recent call last):
+  File "main_ground_filter.py", line 23, in <module>
+    CFG = yaml.safe_load(open('config/semantic-kitti.yaml', 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'config/semantic-kitti.yaml'
